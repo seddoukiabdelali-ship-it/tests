@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: safmmaroc-football
+    env: static
+    buildCommand: ""
+    startCommand: "npx serve -s ."
